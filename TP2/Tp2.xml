@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<restaurants xsi:noNamespaceSchemaLocation="Tp2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <restaurant name="resto1">
+              <adresse num="02">
+                   <rue> </rue>
+                   <ville>13 </ville>
+              </adresse>
+              <tels>
+                 <tel > 05 57 73 33 17
+                 </tel>
+                 <tel  > 05 50 46 56 03
+                 </tel>
+             
+               </tels>
+               
+              <contact> 
+              <mail>
+              </mail>
+     
+              </contact>
+              <menu>
+                    <entrees>
+                          <entree prix="500">
+                               entree1
+                          </entree>
+                          <entree prix="400">
+                               entree2
+                          </entree>
+                          <entree prix="300">
+                                entree3
+                          </entree>
+                    </entrees>
+                    
+                    <plats>
+                        <plat prix="700">
+                            <name> </name>
+                        </plat>
+                        <plat prix="800">
+                        <name> </name>
+                        </plat>
+                        <plat prix="900">
+                        <name> </name>
+                        </plat>
+                    </plats>
+                    
+                    <desserts>
+                       <dessert prix="200">
+                          <name></name>
+                       </dessert>
+                       <dessert prix="100">
+                          <name></name>
+                       </dessert>
+                       <dessert prix="150">
+                          <name></name>
+                       </dessert>
+                    </desserts>
+              </menu>
+        </restaurant>
+        
+         <restaurant name="resto2">
+              <adresse num="03">
+                   <rue> </rue>
+                   <ville>Tlemcen </ville>
+              </adresse>
+              <tels>
+                 <tel>
+                 </tel>
+                 <tel >
+                 </tel>
+               </tels>
+               
+              <contact> 
+              <fax>
+              </fax>
+              </contact>
+              <menu>
+                    <entrees>
+                          <entree prix="500">
+                               
+                          </entree>
+                          <entree prix="400">
+                               
+                          </entree>
+                          <entree prix="300">
+                                
+                          </entree>
+                    </entrees>
+                    
+                    <plats>
+                        <plat prix="700">
+                            <name> </name>
+                        </plat>
+                        <plat prix="800">
+                        <name> </name>
+                        </plat>
+                        
+                    </plats>
+                    
+                    <desserts>
+                       <dessert prix="200">
+                          <name></name>
+                       </dessert>
+                       <dessert prix="100">
+                          <name></name>
+                       </dessert>
+                       <dessert prix="150">
+                          <name></name>
+                       </dessert>
+                       <dessert prix="170">
+                          <name></name>
+                       </dessert>
+                    </desserts>
+              </menu>
+        </restaurant>
+</restaurants>
+
+

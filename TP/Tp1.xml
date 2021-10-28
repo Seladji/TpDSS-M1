@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<universite name="Tlemcen" xsi:noNamespaceSchemaLocation="tp1-shema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <faculte name = "science">
+     <departement name = "informatique">
+     <formations>
+            <formation type= "Licence">
+	<duree > 3 ans</duree>		
+            </formation>
+             
+        <formation type="Master">
+           <duree > 2 ans</duree>
+        
+	<specialites>
+	    <specialite name="GL">
+	             <annee num="1"> 1er </annee>
+	            <annee num="2"> 2 eme</annee>
+	    </specialite>
+	<specialite name="MID">
+	             <annee num="1"> 1er </annee>
+	            <annee num="2"> 2 eme</annee>
+	    </specialite>
+	<specialite name="RSD">
+	             <annee num="1"> 1er </annee>
+	            <annee num="2"> 2 eme</annee>
+	    </specialite>
+	<specialite name="SIC">
+	             <annee num="1"> 1er </annee>
+	            <annee num="2"> 2 eme</annee>
+	    </specialite>
+	</specialites>
+            </formation>
+         
+    </formations>
+       </departement>
+       </faculte>
+</universite>

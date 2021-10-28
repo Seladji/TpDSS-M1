@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="universite" type="Tuniversite"></xs:element>
+<xs:complexType name="Tuniversite">
+           <xs:sequence>
+                   <xs:element name="faculte" type="Tfaculte"></xs:element>
+           </xs:sequence>
+           <xs:attribute name="name" type="xs:string"></xs:attribute>
+           
+</xs:complexType>
+
+<xs:complexType name="Tfaculte">
+           <xs:sequence>
+                   <xs:element name="departement" type="Tdepartement"></xs:element>
+           </xs:sequence>
+           <xs:attribute name="name" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="Tdepartement">
+           <xs:sequence>
+                   <xs:element name="formations" type="Tformations"></xs:element>
+           </xs:sequence>
+           <xs:attribute name="name" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="Tformations">
+           <xs:sequence>
+                   <xs:element name="formation" type="Tformation" maxOccurs="2"></xs:element>
+           </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tformation">
+           <xs:sequence>
+                   <xs:element name="duree " type="xs:string"> </xs:element>
+                    <xs:element name="specialites " type="Tspecialites" minOccurs="0" > </xs:element>
+           </xs:sequence>
+           <xs:attribute name="type" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+
+<xs:complexType name="Tspecialites">
+           <xs:sequence>
+                   <xs:element name="specialite " type="Tspecialite"  maxOccurs="4"> </xs:element>
+           </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tspecialite">
+           <xs:sequence>
+                   <xs:element name="annee " type="Tannee"  maxOccurs="2"> </xs:element>
+           </xs:sequence>
+           <xs:attribute name="name" type="xs:string">
+           
+           </xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="Tannee"   mixed="true">
+          
+           <xs:attribute name="num" type="xs:string">
+           </xs:attribute>
+</xs:complexType>
+
+
+
+</xs:schema>

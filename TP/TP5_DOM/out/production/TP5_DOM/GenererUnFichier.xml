@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="CHILDREN">
+    <title>
+      Harry Potter
+      <editeur>editeur1</editeur>
+    </title>
+    <auteur>J K. Rowling</auteur>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="WEB">
+    <auteur lang="en">XQuery Kick Start</auteur>
+    <auteur>James McGovern</auteur>
+    <auteur>James Per Bothner</auteur>
+    <auteur>Vaidyanathan Nagarajan</auteur>
+    <year>2003</year>
+    <price>49.99</price>
+  </book>
+</bookstore>

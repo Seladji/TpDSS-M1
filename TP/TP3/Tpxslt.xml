@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Wed Dec 08 11:48:07 CET 2021 -->
+
+<?xml-stylesheet type="text/xsl" href="Tpxslt.xsl"?>
+
+<variable>
+<valeur note="16">
+  <nom>sila</nom>
+  <prenom>gaouar </prenom>
+</valeur>
+<valeur note="13">
+  <nom>abdellah</nom>
+  <prenom>seladji </prenom>
+</valeur>
+<valeur note="10">
+  <nom>nadjat</nom>
+  <prenom>gadiri </prenom>
+</valeur>
+
+</variable>
